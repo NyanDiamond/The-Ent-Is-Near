@@ -49,7 +49,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (target == null) UpdateTarget();
+        if (target == null && Time.timeScale==1) UpdateTarget();
         Vector2 dir = (target.transform.position - transform.position).normalized;
         if(canMove)
         {
