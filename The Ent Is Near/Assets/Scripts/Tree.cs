@@ -8,12 +8,18 @@ public class Tree : MonoBehaviour
     [SerializeField] float maxHealth = 100f, damageRate = 5f;
     float currentHp;
     [SerializeField] Image healthBar;
-
+    GameManager gm;
     // Start is called before the first frame update
     void Start()
     {
         currentHp = maxHealth;
         UpdateHealth();
+        gm = FindObjectOfType<GameManager>();
+        gm.AddTree(this);
+    }
+    private void OnDestroy()
+    {
+        gm.RemoveTree(this);
     }
 
     // Update is called once per frame
@@ -31,7 +37,7 @@ public class Tree : MonoBehaviour
     {
         currentHp -= damageRate;
         UpdateHealth();
-        if(currentHp<0)
+        if(currentHp<=0)
         {
             Death();
         }

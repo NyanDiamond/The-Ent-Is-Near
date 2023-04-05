@@ -9,7 +9,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] float speed, damagerate;
     Tree target;
     bool canMove = true;
-    bool doDamage = true;
+    GameManager gm;
+    //bool doDamage = true;
 
     [SerializeField] float maxHealth = 100f;
     float currentHp;
@@ -20,7 +21,10 @@ public class Enemy : MonoBehaviour
         UpdateTarget();
         currentHp = maxHealth;
         UpdateHealth();
+        gm = FindObjectOfType<GameManager>();
+        gm.AddEnemy(this);
     }
+
 
     void UpdateTarget()
     {
@@ -45,9 +49,15 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (target == null) UpdateTarget();
+        Vector2 dir = (target.transform.position - transform.position).normalized;
         if(canMove)
         {
-            transform.Translate((target.transform.position - transform.position) * speed);
+            transform.Translate(dir * speed *Time.deltaTime);
+        }
+        if(Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            Damaged(25);
         }
     }
 
@@ -83,7 +93,7 @@ public class Enemy : MonoBehaviour
     {
         currentHp -= damage;
         UpdateHealth();
-        if (currentHp < 0)
+        if (currentHp <= 0)
         {
             Death();
         }
@@ -93,6 +103,7 @@ public class Enemy : MonoBehaviour
     {
         //TODO: call game manager to say that this tree is destroyed
         //TODO: call tree falling animation and anything that goes with it
+        gm.RemoveEnemy(this);
         Destroy(this.gameObject);
     } 
 
