@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b8d2f08ebf974fe4bafef8c93ce13b77
+guid: 9bfab45aea12b53468c545d291c1a362
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -105,12 +105,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Piskel (2)_0
+      name: Lumber Jack Up (1)_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 3
         y: 66
-        width: 15
+        width: 26
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -119,19 +119,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b545af465a1251c4582dfacbe287686c
-      internalID: 1316118821
+      spriteID: 5e0a2008eef7e3642bfb0b0dfce53972
+      internalID: 1016152754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (2)_1
+      name: Lumber Jack Up (1)_1
       rect:
         serializedVersion: 2
-        x: 39
+        x: 35
         y: 66
-        width: 15
+        width: 26
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a637ceaf5f23d94c946a60966202188
-      internalID: 545167544
+      spriteID: 2c132f3a0ce92f1439a1a90b3c182c04
+      internalID: -1667628658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (2)_2
+      name: Lumber Jack Up (1)_2
       rect:
         serializedVersion: 2
-        x: 70
-        y: 66
-        width: 16
-        height: 27
+        x: 68
+        y: 65
+        width: 23
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1478e8665fd97049baa1f886461d38c
-      internalID: -936569873
+      spriteID: e7d956c05d8d84f439287aaf6dee359f
+      internalID: 647846882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (2)_3
+      name: Lumber Jack Up (1)_3
       rect:
         serializedVersion: 2
-        x: 6
+        x: 4
+        y: 33
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bb098e674565749bb391701f601fe0
+      internalID: -1976605712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumber Jack Up (1)_4
+      rect:
+        serializedVersion: 2
+        x: 35
         y: 34
-        width: 16
-        height: 27
+        width: 26
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,19 +203,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a65280db596e94441be4a352c2553e0c
-      internalID: 536485214
+      spriteID: b674c23587a1a3f4facad934cabcd1d9
+      internalID: -533588200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (2)_4
+      name: Lumber Jack Up (1)_5
       rect:
         serializedVersion: 2
-        x: 39
+        x: 67
         y: 34
-        width: 15
+        width: 26
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -203,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5675305a4064dd24bb22793ebd5f7565
-      internalID: -109521847
+      spriteID: e7bbe97b9b235bc46a45822fb0a18ebd
+      internalID: -1936886662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (2)_5
+      name: Lumber Jack Up (1)_6
       rect:
         serializedVersion: 2
-        x: 71
-        y: 34
-        width: 15
-        height: 28
+        x: 5
+        y: 1
+        width: 23
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 193a537ed31336f4a8aa46f1b7ca7fdf
-      internalID: -1682469479
+      spriteID: 878d056f74ed0894f981225be64bfc74
+      internalID: -521776334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (2)_6
+      name: Lumber Jack Up (1)_7
       rect:
         serializedVersion: 2
-        x: 7
-        y: 3
-        width: 14
-        height: 28
+        x: 37
+        y: 1
+        width: 23
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,29 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66cffd1fa800f5f4f9aea10f3c545429
-      internalID: -93947636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New Piskel (2)_7
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 3
-        width: 14
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 459c052a86025b34eb6db32c80f88f2e
-      internalID: 646750610
+      spriteID: d848f72c49d6f1a4a907f9a8ded51df8
+      internalID: 1997391946
       vertices: []
       indices: 
       edges: []
@@ -283,14 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      New Piskel (2)_5: -1682469479
-      New Piskel (2)_4: -109521847
-      New Piskel (2)_3: 536485214
-      New Piskel (2)_2: -936569873
-      New Piskel (2)_7: 646750610
-      New Piskel (2)_6: -93947636
-      New Piskel (2)_1: 545167544
-      New Piskel (2)_0: 1316118821
+      Lumber Jack Up (1)_5: -1936886662
+      Lumber Jack Up (1)_3: -1976605712
+      Lumber Jack Up (1)_7: 1997391946
+      Lumber Jack Up (1)_2: 647846882
+      Lumber Jack Up (1)_4: -533588200
+      Lumber Jack Up (1)_0: 1016152754
+      Lumber Jack Up (1)_6: -521776334
+      Lumber Jack Up (1)_1: -1667628658
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

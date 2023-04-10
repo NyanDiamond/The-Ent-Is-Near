@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 417b07dfa3cbbae4a943e9fdc22e5b86
+guid: 33aa6bd9694a0f54281094a95bceb4a1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -105,12 +105,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lumber Jack Foward_0
+      name: Lumber Jack Left_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 7
         y: 66
-        width: 26
+        width: 15
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -119,19 +119,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab40853e19c59194fab84f033c46ee1b
-      internalID: -1668968629
+      spriteID: aebc77d5307d73144b2ce8982359ef36
+      internalID: -441192649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Foward_1
+      name: Lumber Jack Left_1
       rect:
         serializedVersion: 2
-        x: 35
+        x: 39
         y: 66
-        width: 26
+        width: 15
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 214c5faed293eba438b8771c601eed94
-      internalID: 668281662
+      spriteID: 8c08f9b7a5c285f4eb11560cb06df989
+      internalID: 1711242479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Foward_2
+      name: Lumber Jack Left_2
       rect:
         serializedVersion: 2
-        x: 68
-        y: 65
-        width: 23
-        height: 29
+        x: 70
+        y: 66
+        width: 16
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,41 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 489366a39dd4ee54597f560814aa54bc
-      internalID: -1821269587
+      spriteID: 399b8e3f6a441db47bbf3f4b7d04f594
+      internalID: -17597451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Foward_3
+      name: Lumber Jack Left_3
       rect:
         serializedVersion: 2
-        x: 4
-        y: 33
-        width: 23
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f92ed2f12cba56408d137022e0924b8
-      internalID: 1838922709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lumber Jack Foward_4
-      rect:
-        serializedVersion: 2
-        x: 35
+        x: 6
         y: 34
-        width: 26
-        height: 28
+        width: 16
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,19 +182,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6ea36f72a388b940af700bad3e89158
-      internalID: 1208087038
+      spriteID: 01378f19c700a4a4f9ff8aeaf301ea3b
+      internalID: 413724792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Foward_5
+      name: Lumber Jack Left_4
       rect:
         serializedVersion: 2
-        x: 67
+        x: 39
         y: 34
-        width: 26
+        width: 15
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -224,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 810f30bdad6b81241815b0d35572b399
-      internalID: -910029206
+      spriteID: 841edaecc13f07740ba9a19a6d543a42
+      internalID: -194838446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Foward_6
+      name: Lumber Jack Left_5
       rect:
         serializedVersion: 2
-        x: 5
-        y: 1
-        width: 23
-        height: 29
+        x: 71
+        y: 34
+        width: 15
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fadbec2c5ddf1a4ca9ed140bf96445a
-      internalID: 1110817550
+      spriteID: db650349d6eea7948b67981fefa4ff91
+      internalID: -504718766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Foward_7
+      name: Lumber Jack Left_6
       rect:
         serializedVersion: 2
-        x: 37
-        y: 1
-        width: 23
-        height: 29
+        x: 7
+        y: 3
+        width: 14
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +245,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7654071056b5b254f87da2c1a28cb1af
-      internalID: 1686880159
+      spriteID: 4cb16efa4a8adfe42bccfb457e9daa27
+      internalID: -1154010915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumber Jack Left_7
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e773c6d1973824e90739e183b9c80c
+      internalID: -1749093475
       vertices: []
       indices: 
       edges: []
@@ -283,14 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Lumber Jack Foward_7: 1686880159
-      Lumber Jack Foward_1: 668281662
-      Lumber Jack Foward_4: 1208087038
-      Lumber Jack Foward_6: 1110817550
-      Lumber Jack Foward_3: 1838922709
-      Lumber Jack Foward_2: -1821269587
-      Lumber Jack Foward_0: -1668968629
-      Lumber Jack Foward_5: -910029206
+      Lumber Jack Left_1: 1711242479
+      Lumber Jack Left_5: -504718766
+      Lumber Jack Left_0: -441192649
+      Lumber Jack Left_6: -1154010915
+      Lumber Jack Left_3: 413724792
+      Lumber Jack Left_7: -1749093475
+      Lumber Jack Left_4: -194838446
+      Lumber Jack Left_2: -17597451
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

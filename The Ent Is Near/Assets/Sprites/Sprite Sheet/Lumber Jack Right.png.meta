@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9602ae7482eecb1428d35dc4b692d436
-      internalID: 46453236
+      spriteID: 9660d9ce485aa844a89b5470e1aa13e5
+      internalID: 1302693045
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 795c37fb696a0a1438a70d5bca837cae
-      internalID: -701502850
+      spriteID: 7dd47e6c91c3ab94989ca5bae3dca38b
+      internalID: -978916391
       vertices: []
       indices: 
       edges: []
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0c1bf7b645c74249b2cb482118032b9
-      internalID: 1769668196
+      spriteID: f2368aeb763eda246a69830c56168964
+      internalID: -429768561
       vertices: []
       indices: 
       edges: []
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab6e5b8bc5c6df143baf3851c81f03c9
-      internalID: -618277971
+      spriteID: 281a1e24a99cc8c4ca78b7ed0994099e
+      internalID: 1761896236
       vertices: []
       indices: 
       edges: []
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac6876d978c2a7f4f9467ffed1950da2
-      internalID: -765805669
+      spriteID: 3faaa6fd9a03b6a4287e627a8bccd978
+      internalID: -282937556
       vertices: []
       indices: 
       edges: []
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bf0d774b65f62545a312695a6f8db3e
-      internalID: -1428286910
+      spriteID: 0483a567662272841a42a30fdb632012
+      internalID: 1874865982
       vertices: []
       indices: 
       edges: []
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd909324812fc504c8513f61f622da61
-      internalID: -156338841
+      spriteID: f706d1e9dc86d91449639a923024d066
+      internalID: 270816265
       vertices: []
       indices: 
       edges: []
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 392ae81ebfb91f34fa9963e2d2552d1b
-      internalID: -1284923078
+      spriteID: e548ea78fdfd9144586f06e77a685597
+      internalID: -45899801
       vertices: []
       indices: 
       edges: []
@@ -283,14 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Lumber Jack Right_1: -701502850
-      Lumber Jack Right_7: -1284923078
-      Lumber Jack Right_4: -765805669
-      Lumber Jack Right_3: -618277971
-      Lumber Jack Right_2: 1769668196
-      Lumber Jack Right_6: -156338841
-      Lumber Jack Right_5: -1428286910
-      Lumber Jack Right_0: 46453236
+      Lumber Jack Right_1: -978916391
+      Lumber Jack Right_7: -45899801
+      Lumber Jack Right_4: -282937556
+      Lumber Jack Right_3: 1761896236
+      Lumber Jack Right_2: -429768561
+      Lumber Jack Right_6: 270816265
+      Lumber Jack Right_5: 1874865982
+      Lumber Jack Right_0: 1302693045
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

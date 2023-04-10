@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c02c9b94dc600cc4f8cbefa6e9e82e83
+guid: 6a8604a6d6669d244ab2b36ba5058a96
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lumber Jack Backword_0
+      name: Lumber Jack Down_0
       rect:
         serializedVersion: 2
         x: 3
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30f262acaf84bea46b87003614da6b68
-      internalID: 45531522
+      spriteID: 35a31b858b8f3884492002a56550deb8
+      internalID: -1091557059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Backword_1
+      name: Lumber Jack Down_1
       rect:
         serializedVersion: 2
         x: 35
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b1f6acb6f2f4bf40b45069b28da030d
-      internalID: 762752535
+      spriteID: 983214688f55e5d448da795f06c29d0b
+      internalID: 2104963753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Backword_2
+      name: Lumber Jack Down_2
       rect:
         serializedVersion: 2
         x: 69
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ea861330114588419206f33190e39d9
-      internalID: 873110457
+      spriteID: 913cfd1507b154c459b7023fac33dff3
+      internalID: -1544940770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Backword_3
+      name: Lumber Jack Down_3
       rect:
         serializedVersion: 2
         x: 5
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29ba87339b8f3e64eb9e3219700811cb
-      internalID: -1356085902
+      spriteID: 38537bea91285084fbf4e622d4aa20b7
+      internalID: -471545848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Backword_4
+      name: Lumber Jack Down_4
       rect:
         serializedVersion: 2
         x: 35
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a57500eebf6cc404bb62811d2fb60736
-      internalID: 1256170852
+      spriteID: 99ae673f559d69d41b9dab7321ea650b
+      internalID: -1006594177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Backword_5
+      name: Lumber Jack Down_5
       rect:
         serializedVersion: 2
         x: 67
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 951635b1b46a4db46bd6aba060933e43
-      internalID: 1857831494
+      spriteID: 06f554a7ce8a2bd4ba64e901fd1a3334
+      internalID: 1593191828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Backword_6
+      name: Lumber Jack Down_6
       rect:
         serializedVersion: 2
         x: 4
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7fb0b27a25e77442985bd0d092bb2cb
-      internalID: 1003988625
+      spriteID: 79f01bb792631f848a10172e44625fcb
+      internalID: 768097614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Backword_7
+      name: Lumber Jack Down_7
       rect:
         serializedVersion: 2
         x: 36
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a40d8f3708368741b599937522091d5
-      internalID: 816326701
+      spriteID: 0fc44c8cf6f0485428700f47f488317f
+      internalID: -1686128302
       vertices: []
       indices: 
       edges: []
@@ -283,14 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Lumber Jack Backword_5: 1857831494
-      Lumber Jack Backword_3: -1356085902
-      Lumber Jack Backword_4: 1256170852
-      Lumber Jack Backword_2: 873110457
-      Lumber Jack Backword_0: 45531522
-      Lumber Jack Backword_7: 816326701
-      Lumber Jack Backword_1: 762752535
-      Lumber Jack Backword_6: 1003988625
+      Lumber Jack Down_2: -1544940770
+      Lumber Jack Down_0: -1091557059
+      Lumber Jack Down_5: 1593191828
+      Lumber Jack Down_6: 768097614
+      Lumber Jack Down_3: -471545848
+      Lumber Jack Down_4: -1006594177
+      Lumber Jack Down_1: 2104963753
+      Lumber Jack Down_7: -1686128302
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
