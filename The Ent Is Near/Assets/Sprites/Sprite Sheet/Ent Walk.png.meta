@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c02c9b94dc600cc4f8cbefa6e9e82e83
+guid: 5e0248c63d8f3f24cb734fe8e62c70a1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,97 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lumber Jack Backword_0
+      name: Ent Walk_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 203
+        width: 78
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c8cdc034046b746baae3a5a00be69b
+      internalID: 1597664518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ent Walk_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 203
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bc2a4f5afc92948bb413dcf882df55
+      internalID: -1735055759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ent Walk_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 100
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578550fa34e959047948b14acd1255c6
+      internalID: -1371984603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ent Walk_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 107
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde17569936ce914eb30b71c4aaf048f
+      internalID: -474324921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ent Walk_4
       rect:
         serializedVersion: 2
         x: 3
-        y: 66
-        width: 26
-        height: 28
+        y: 3
+        width: 84
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30f262acaf84bea46b87003614da6b68
-      internalID: 45531522
+      spriteID: 7fa82251ea083ad4288ddb762916d6aa
+      internalID: -518865899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lumber Jack Backword_1
+      name: Ent Walk_5
       rect:
         serializedVersion: 2
-        x: 35
-        y: 66
-        width: 26
-        height: 28
+        x: 108
+        y: 3
+        width: 81
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,134 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b1f6acb6f2f4bf40b45069b28da030d
-      internalID: 762752535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lumber Jack Backword_2
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 65
-        width: 23
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ea861330114588419206f33190e39d9
-      internalID: 873110457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lumber Jack Backword_3
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 33
-        width: 23
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29ba87339b8f3e64eb9e3219700811cb
-      internalID: -1356085902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lumber Jack Backword_4
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 34
-        width: 26
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a57500eebf6cc404bb62811d2fb60736
-      internalID: 1256170852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lumber Jack Backword_5
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 34
-        width: 26
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 951635b1b46a4db46bd6aba060933e43
-      internalID: 1857831494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lumber Jack Backword_6
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 1
-        width: 23
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7fb0b27a25e77442985bd0d092bb2cb
-      internalID: 1003988625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lumber Jack Backword_7
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 1
-        width: 23
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a40d8f3708368741b599937522091d5
-      internalID: 816326701
+      spriteID: ef8623b7a29f7cc44adaf00251f70235
+      internalID: -1825068403
       vertices: []
       indices: 
       edges: []
@@ -283,14 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Lumber Jack Backword_5: 1857831494
-      Lumber Jack Backword_3: -1356085902
-      Lumber Jack Backword_4: 1256170852
-      Lumber Jack Backword_2: 873110457
-      Lumber Jack Backword_0: 45531522
-      Lumber Jack Backword_7: 816326701
-      Lumber Jack Backword_1: 762752535
-      Lumber Jack Backword_6: 1003988625
+      Ent Walk_1: -1735055759
+      Ent Walk_0: 1597664518
+      Ent Walk_4: -518865899
+      Ent Walk_2: -1371984603
+      Ent Walk_5: -1825068403
+      Ent Walk_3: -474324921
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
