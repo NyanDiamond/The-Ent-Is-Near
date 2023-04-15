@@ -9,12 +9,15 @@ public class Enemy : MonoBehaviour
     [SerializeField] float speed, damagerate;
     Tree target;
     bool canMove = true;
+    bool slowed = false;
     GameManager gm;
     //bool doDamage = true;
 
     [SerializeField] float maxHealth = 100f;
     float currentHp;
     [SerializeField] Image healthBar;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,8 @@ public class Enemy : MonoBehaviour
         UpdateHealth();
         gm = FindObjectOfType<GameManager>();
         gm.AddEnemy(this);
+        slowed = false;
+
     }
 
 
@@ -53,11 +58,10 @@ public class Enemy : MonoBehaviour
         Vector2 dir = (target.transform.position - transform.position).normalized;
         if(canMove)
         {
-            transform.Translate(dir * speed *Time.deltaTime);
-        }
-        if(Input.GetKeyDown(KeyCode.Alpha0))
-        {
-            Damaged(25);
+            if(slowed)
+                transform.Translate(dir * speed/2 *Time.deltaTime);
+            else
+                transform.Translate(dir * speed * Time.deltaTime);
         }
     }
 
@@ -89,7 +93,9 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void Damaged(float damage)
+    
+
+    public void Damaged(float damage, bool slow)
     {
         currentHp -= damage;
         UpdateHealth();
@@ -97,7 +103,20 @@ public class Enemy : MonoBehaviour
         {
             Death();
         }
+        if(slow)
+        {
+            slowed = slow;
+            StartCoroutine(Slowed());
+        }
     }
+
+    IEnumerator Slowed()
+    {
+        yield return new WaitForSeconds(1);
+        slowed = false;
+    }
+
+
 
     void Death()
     {

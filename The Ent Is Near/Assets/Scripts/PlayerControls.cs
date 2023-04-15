@@ -10,11 +10,15 @@ public class PlayerControls : MonoBehaviour
     float xMove, yMove;
     Animator an;
     bool attacking = false;
+    GameObject child1, child2;
 
+    Vector2 mousePos;
     // Start is called before the first frame update
     void Start()
     {
         an = GetComponent<Animator>();
+        child1 = transform.GetChild(0).gameObject;
+        child2 = child1.transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
@@ -60,13 +64,13 @@ public class PlayerControls : MonoBehaviour
         Vector2 moveDir = (Vector2.right * xMove + Vector2.up * yMove).normalized;
         if(moveDir!=Vector2.zero)
         {
-            //an.SetBool("Moving", true)
+            //an.SetBool("Moving", true);
         }
         else
         {
-            //an.SetBool("Moving", false)
+            //an.SetBool("Moving", false);
         }
-        Debug.Log(moveDir);
+        //Debug.Log(moveDir);
         Rotate(moveDir);
         transform.position+=(Vector3)(moveDir * speed * Time.deltaTime);
         transform.position = new Vector2(Mathf.Clamp(transform.position.x, -xBound, xBound), Mathf.Clamp(transform.position.y, -yBound, yBound));
@@ -81,7 +85,11 @@ public class PlayerControls : MonoBehaviour
         {
             transform.rotation = Quaternion.Euler(0f, 180f, 0f);
         }
-        //an.SetFloat("yValue", yMove)
+        an.SetFloat("yMove", yMove);
+        if(yMove == 0)
+        {
+            an.SetFloat("yMove", -.01f);
+        }
     }
 
     private void Attack(int num)
@@ -89,24 +97,38 @@ public class PlayerControls : MonoBehaviour
         attacking = true;
         if(num==1)
         {
-            Debug.Log("Melee attacking");
-            //an.SetTrigger("Attack1")
+            //Debug.Log("Melee attacking");
+            an.SetTrigger("Attack1");
         }
         else if (num==2)
         {
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 summonLocation = (Vector2)transform.position + (mousePos - (Vector2)transform.position).normalized * 0.3f;
-            float rotation = Mathf.Atan2(mousePos.y - summonLocation.y, mousePos.x - summonLocation.x) * Mathf.Rad2Deg;
-            Debug.Log("Ranged attacking towards " + summonLocation);
-            //Instantiate(rangedAttack, summonLocation, Quaternion.Euler(0f, 0f, rotation));
+            mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            an.SetTrigger("Attack2");
         }
     }
 
     public void AttackEnd()
     {
-        Debug.Log("AttackFinish");
+        //Debug.Log("AttackFinish");
         attacking = false;
     }
 
-   
+    public void MeleeStart()
+    {
+        child2.SetActive(false);
+        child1.SetActive(true);
+
+    }
+
+    public void MeleeOff()
+    {
+        child2.SetActive(true);
+    }
+
+    public void RangedAttackOff()
+    {
+        float rotation = Mathf.Atan2(mousePos.y - transform.position.y, mousePos.x - transform.position.x) * Mathf.Rad2Deg;
+        //Debug.Log("Ranged attacking towards " + summonLocation);
+        Instantiate(rangedAttack, transform.position, Quaternion.Euler(0f, 0f, rotation));
+    }
 }
