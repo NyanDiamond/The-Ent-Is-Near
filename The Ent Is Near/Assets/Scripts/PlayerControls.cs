@@ -28,23 +28,31 @@ public class PlayerControls : MonoBehaviour
         {
             attacking = false;
         }
-        if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+        if(Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
         {
-            xMove--;
+            xMove = -1;
         }
-        if(Input.GetKeyDown(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
+        if(Input.GetKeyDown(KeyCode.D) && !Input.GetKey(KeyCode.A))
         {
-            xMove++;
+            xMove = 1;
         }
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyUp(KeyCode.S))
+        if (Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))
         {
-            yMove++;
+            yMove = 1;
         }
-        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyUp(KeyCode.W))
+        if (Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W))
         {
-            yMove--;
+            yMove = -1;
         }
-        if (!attacking)
+        if((Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D)) || ((!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))))
+        {
+            xMove = 0;
+        }
+        if ((Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.S)) || ((!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))))
+        {
+            yMove = 0;
+        }
+            if (!attacking)
         {
             Move();
 
