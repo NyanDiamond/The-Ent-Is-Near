@@ -1859,7 +1859,7 @@ MonoBehaviour:
     use WASD to move the character
 
     Left Click performs
-    an AOE attack
+    a quick pound attack
 
     Right Click performs a ranged attack'
   m_isRightToLeft: 0
