@@ -59,7 +59,7 @@ public class Enemy : MonoBehaviour
         if(canMove)
         {
             if(slowed)
-                transform.Translate(dir * speed/2 *Time.deltaTime);
+                transform.Translate(dir * speed/10 *Time.deltaTime);
             else
                 transform.Translate(dir * speed * Time.deltaTime);
         }
@@ -106,13 +106,14 @@ public class Enemy : MonoBehaviour
         if(slow)
         {
             slowed = slow;
+            StopCoroutine(Slowed());
             StartCoroutine(Slowed());
         }
     }
 
     IEnumerator Slowed()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.5f);
         slowed = false;
     }
 

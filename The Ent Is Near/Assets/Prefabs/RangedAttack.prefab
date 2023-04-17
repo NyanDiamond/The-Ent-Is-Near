@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ranged: 1
-  damage: 20
+  damage: 30
 --- !u!114 &3428433699247080275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,4 +161,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves: 12
-  speed: 0.1
+  speed: 0.07
