@@ -333,7 +333,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6788790688288808644, guid: db4016ab6c777834086ed7e39e927397, type: 3}
       propertyPath: m_Text
-      value: 'Ole Monte
+      value: 'Ol'' Monte
 
 '
       objectReference: {fileID: 0}
@@ -391,7 +391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9003587977203056247, guid: db4016ab6c777834086ed7e39e927397, type: 3}
       propertyPath: m_Name
-      value: Ole Monte
+      value: Ol' Monte
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db4016ab6c777834086ed7e39e927397, type: 3}
