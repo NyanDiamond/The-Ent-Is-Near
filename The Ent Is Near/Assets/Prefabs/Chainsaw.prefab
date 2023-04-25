@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6937914493374135161, guid: 58ddde1868a13144b9381ece6cf468e7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e42e82ea548e7ab42a70f0e908691c73, type: 2}
     - target: {fileID: 4144885004787475413, guid: 58ddde1868a13144b9381ece6cf468e7, type: 3}
       propertyPath: m_Camera
       value: 
@@ -68,16 +72,24 @@ PrefabInstance:
       value: Chainsaw
       objectReference: {fileID: 0}
     - target: {fileID: 4144885005898049318, guid: 58ddde1868a13144b9381ece6cf468e7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2063242993, guid: 5d8edcc0615ab68468720210f537ab41, type: 3}
+    - target: {fileID: 4144885005898049318, guid: 58ddde1868a13144b9381ece6cf468e7, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4144885005898049318, guid: 58ddde1868a13144b9381ece6cf468e7, type: 3}
       propertyPath: m_Color.g
-      value: 0.5587921
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4144885005898049318, guid: 58ddde1868a13144b9381ece6cf468e7, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4144885005898049319, guid: 58ddde1868a13144b9381ece6cf468e7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58ddde1868a13144b9381ece6cf468e7, type: 3}

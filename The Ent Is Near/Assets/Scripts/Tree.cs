@@ -9,6 +9,7 @@ public class Tree : MonoBehaviour
     float currentHp;
     [SerializeField] Image healthBar;
     GameManager gm;
+    [SerializeField] GameObject stump;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +48,7 @@ public class Tree : MonoBehaviour
     {
         //TODO: call game manager to say that this tree is destroyed
         //TODO: call tree falling animation and anything that goes with it
+        Instantiate(stump, transform.position, Quaternion.identity);
         Destroy(this.gameObject);
     }
 

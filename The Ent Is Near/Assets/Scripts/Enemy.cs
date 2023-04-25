@@ -11,6 +11,9 @@ public class Enemy : MonoBehaviour
     bool canMove = true;
     bool slowed = false;
     GameManager gm;
+    Animator an;
+    Coroutine cr;
+    [SerializeField] GameObject swirl;
     //bool doDamage = true;
 
     [SerializeField] float maxHealth = 100f;
@@ -27,7 +30,8 @@ public class Enemy : MonoBehaviour
         gm = FindObjectOfType<GameManager>();
         gm.AddEnemy(this);
         slowed = false;
-
+        an = GetComponent<Animator>();
+        swirl.SetActive(false);
     }
 
 
@@ -50,6 +54,22 @@ public class Enemy : MonoBehaviour
 
         target = trees[closestIndex];
         canMove = true;
+
+        RotateTarget();
+    }
+
+    void RotateTarget()
+    {
+        if (an!=null)
+        {
+            Vector2 temp = (target.transform.position - transform.position).normalized;
+            an.SetFloat("xMove", temp.x);
+            an.SetFloat("yMove", temp.y);
+        }
+        else
+        {
+
+        }
     }
     // Update is called once per frame
     void Update()
@@ -78,7 +98,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.GetComponent<Tree>() == target)
         {
-            StopAllCoroutines();
+            StopCoroutine(Attack());
             UpdateTarget();
         }
     }
@@ -106,15 +126,20 @@ public class Enemy : MonoBehaviour
         if(slow)
         {
             slowed = slow;
-            StopCoroutine(Slowed());
-            StartCoroutine(Slowed());
+            if(cr!=null)
+            {
+                StopCoroutine(cr);
+            }
+            cr = StartCoroutine(Slowed());
         }
     }
 
     IEnumerator Slowed()
     {
+        swirl.SetActive(true);
         yield return new WaitForSeconds(1.5f);
         slowed = false;
+        swirl.SetActive(false);
     }
 
 
