@@ -45,33 +45,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - clipName: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
-    loop: 0
+  - clipName: Title Screen
+    clip: {fileID: 8300000, guid: 793441340ed45d8409527363a1c31e2b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
     source: {fileID: 0}
-  - clipName: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
-    loop: 0
+  - clipName: Main Game
+    clip: {fileID: 8300000, guid: b85a4e2501f7a1f4a8ae79795787828a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
     source: {fileID: 0}
-  - clipName: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
-    loop: 0
+  - clipName: Final Boss
+    clip: {fileID: 8300000, guid: dd4f6b22f4e9032449c26b70a937ed12, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
     source: {fileID: 0}
-  - clipName: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
-    loop: 0
+  - clipName: Sad Lose
+    clip: {fileID: 8300000, guid: 215ba2255f9a78f449977ef31c2ccc5c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
     source: {fileID: 0}
-  - clipName: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
-    loop: 0
+  - clipName: Happy Win
+    clip: {fileID: 8300000, guid: 6211b168cd11026418adbe6db3fa8a3c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
     source: {fileID: 0}

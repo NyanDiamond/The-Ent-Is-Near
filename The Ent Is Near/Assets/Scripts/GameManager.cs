@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     private List<Enemy> enemies;
     private List<Tree> trees;
     [SerializeField] float horizontalSpawn, verticalSpawn;
+
+    public AudioManager audioManager;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -25,6 +27,8 @@ public class GameManager : MonoBehaviour
         currentWave = 1;
         waveText.text = "Wave: " + currentWave;
         SpawnWave();
+        audioManager.Play("Main Game");
+
     }
 
     private void Update()
@@ -91,6 +95,8 @@ public class GameManager : MonoBehaviour
                 //win
                 Time.timeScale = 0;
                 victoryScreen.SetActive(true);
+                audioManager.Stop("Main Game");
+                audioManager.Play("Happy Win");
             }
             else
             {
@@ -113,7 +119,8 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 0;
             loseScreen.SetActive(true);
-
+            audioManager.Stop("Main Game");
+            audioManager.Play("Sad Lose");
         }
     }
 
