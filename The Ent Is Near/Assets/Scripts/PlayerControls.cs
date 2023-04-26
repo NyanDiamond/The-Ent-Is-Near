@@ -85,13 +85,27 @@ public class PlayerControls : MonoBehaviour
     }
     private void Rotate(Vector2 dir)
     {
-        if(dir.x<0)
-        {
-            transform.rotation = Quaternion.identity;
+        if (dir.y <= 0)
+            {
+            if (dir.x < 0)
+            {
+                transform.rotation = Quaternion.identity;
+            }
+            else
+            {
+                transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+            }
         }
         else
         {
-            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+            if (dir.x > 0)
+            {
+                transform.rotation = Quaternion.identity;
+            }
+            else
+            {
+                transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+            }
         }
         an.SetFloat("yMove", yMove);
         if(yMove == 0)

@@ -79,9 +79,9 @@ public class Enemy : MonoBehaviour
         if(canMove)
         {
             if(slowed)
-                transform.Translate(dir * speed/10 *Time.deltaTime);
+                transform.transform.position+=(Vector3)(dir * speed/10 *Time.deltaTime);
             else
-                transform.Translate(dir * speed * Time.deltaTime);
+                transform.transform.position += (Vector3)(dir * speed * Time.deltaTime);
         }
     }
 
