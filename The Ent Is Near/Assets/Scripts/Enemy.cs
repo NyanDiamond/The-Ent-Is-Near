@@ -62,7 +62,7 @@ public class Enemy : MonoBehaviour
     {
         if (an!=null)
         {
-            Vector2 temp = (target.transform.position - transform.position).normalized;
+            Vector2 temp = (target.transform.position+(Vector3)(target.GetComponent<CircleCollider2D>().offset) - transform.position).normalized;
             an.SetFloat("xMove", temp.x);
             an.SetFloat("yMove", temp.y);
         }
@@ -75,7 +75,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         if (target == null && Time.timeScale==1) UpdateTarget();
-        Vector2 dir = (target.transform.position - transform.position).normalized;
+        Vector2 dir = (target.transform.position + (Vector3)(target.GetComponent<CircleCollider2D>().offset) - transform.position).normalized;
         if(canMove)
         {
             if(slowed)
