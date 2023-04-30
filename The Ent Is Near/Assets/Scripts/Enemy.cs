@@ -13,6 +13,7 @@ public class Enemy : MonoBehaviour
     GameManager gm;
     Animator an;
     Coroutine cr;
+    Coroutine cr2;
     [SerializeField] GameObject swirl;
     //bool doDamage = true;
 
@@ -54,7 +55,10 @@ public class Enemy : MonoBehaviour
 
         target = trees[closestIndex];
         canMove = true;
-
+        if (cr2 != null)
+        {
+            StopCoroutine(cr2);
+        }
         RotateTarget();
     }
 
@@ -64,8 +68,8 @@ public class Enemy : MonoBehaviour
         {
             Vector2 temp = (target.transform.position+(Vector3)(target.GetComponent<CircleCollider2D>().offset) - transform.position).normalized;
             an.SetFloat("xMove", temp.x);
-            Debug.Log(temp.x);
-            Debug.Log(temp.y);
+            //Debug.Log(temp.x);
+            //Debug.Log(temp.y);
             an.SetFloat("yMove", temp.y);
         }
         else
@@ -91,8 +95,9 @@ public class Enemy : MonoBehaviour
     {
         if(collision.GetComponent<Tree>()==target)
         {
-            StartCoroutine(Attack());
+            cr2 = StartCoroutine(Attack());
             canMove = false;
+            Debug.Log("Attack");
         }
     }
 
@@ -100,7 +105,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.GetComponent<Tree>() == target)
         {
-            StopCoroutine(Attack());
+            StopCoroutine(cr2);
             UpdateTarget();
         }
     }
