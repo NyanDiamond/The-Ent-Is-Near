@@ -24,13 +24,13 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        an = GetComponent<Animator>();
         UpdateTarget();
         currentHp = maxHealth;
         UpdateHealth();
         gm = FindObjectOfType<GameManager>();
         gm.AddEnemy(this);
         slowed = false;
-        an = GetComponent<Animator>();
         swirl.SetActive(false);
     }
 
@@ -64,11 +64,13 @@ public class Enemy : MonoBehaviour
         {
             Vector2 temp = (target.transform.position+(Vector3)(target.GetComponent<CircleCollider2D>().offset) - transform.position).normalized;
             an.SetFloat("xMove", temp.x);
+            Debug.Log(temp.x);
+            Debug.Log(temp.y);
             an.SetFloat("yMove", temp.y);
         }
         else
         {
-
+            Debug.Log("No animator");
         }
     }
     // Update is called once per frame
